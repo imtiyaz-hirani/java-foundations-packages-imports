@@ -14,20 +14,23 @@ The examples here are **clip-ready** and cover **all import styles**:
 
 ## **Project Structure**
 
+
+```
 java-foundations-packages-imports
 └── src
-└── com
-└── pluralsight
-├── app
-│ └── App.java # Main demo entry point
-├── finance
-│ └── Money.java # Finance Money class
-├── marketing
-│ └── Money.java # Marketing Money class (name clash demo)
-├── reports
-│ └── ReportsDemo.java # Cross-package imports demo
-└── utils
-└── MathOps.java # Static imports demo
+    └── com
+        └── pluralsight
+            ├── app
+            │   └── App.java             # Main demo entry point
+            ├── finance
+            │   └── Money.java          # Finance Money class
+            ├── marketing
+            │   └── Money.java          # Marketing Money class (name clash demo)
+            ├── reports
+            │   └── ReportsDemo.java    # Cross-package imports demo
+            └── utils
+                └── MathOps.java        # Static imports demo
+```
 
 ## **Key Concepts Demonstrated**
 
@@ -40,6 +43,7 @@ java-foundations-packages-imports
 | **Cross-package imports** | Using `ReportsDemo` and `Money` in `App`         | Shows imports across unrelated packages      |
 
 ## **Expected Output**
+```
 Finance Money: 499.00 INR
 Math Total: 22
 Marketing Money: ₹499 (Marketing Price)
@@ -47,7 +51,7 @@ Marketing Money: ₹499 (Marketing Price)
 Subscription: 999.00 INR
 Projected Yearly Revenue: ₹11988
 Marketing Display: ₹999 (Marketing Price)
-
+```
 
 
 
